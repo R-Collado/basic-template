@@ -1,6 +1,6 @@
 @use '../abstracts/' as *;
 
-@each $size-name, $size-value in &sizes {
+@each $size-name, $size-value in $sizes {
 
     .margin {
         &-#{$size-name} {
